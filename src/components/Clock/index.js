@@ -28,6 +28,7 @@ class Clock extends Component {
       <div className="clock-container">
         <h1 className="heading">Times Now</h1>
         <p className="time">{date.toLocaleTimeString()}</p>
+        <p className="time">{date.toLocaleDateString()}</p>
       </div>
     )
   }
